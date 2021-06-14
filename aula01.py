@@ -1,17 +1,13 @@
 # carregue o conjunto de dados chamado kc_house_data.csv do HD para a memoria
 
-# funcao - read_csv()
-# biblioteca - pandas
-
 import pandas as pd
-
 data = pd.read_csv('datasets/kc_house_data.csv')
+
 # Perguntas:
 # 1. Quantas casas estão disponíveis para compra?
 #numero de linha que o preço tem, partindo do pressoposto de todas as casas tem um preço, então escolhi esse atributo, coisa que não daria pra fazer com algum atributo
 print(data[['price']].shape)
     #R: 21613
-
 
 # 2. Quantos atributos as casas possuem?
 #columns, colunas -> shape, numero das colunas
@@ -20,7 +16,6 @@ print(data.columns.shape)
 
 
 # 3. Quais são os atributos das casas?
-# columns -> numero das colunas
 print(data.columns)
     # R: 'id', 'date', 'price', 'bedrooms', 'bathrooms', 'sqft_living',
 #        'sqft_lot', 'floors', 'waterfront', 'view', 'condition', 'grade',
@@ -33,7 +28,6 @@ print(data.columns)
 print(data[['id','price']].sort_values('price', ascending=False))
     # R: 6762700020
 
-
 # 5. Qual a casa com maior número de quartos?
 #creio que seja a mesma coisa do de cima, chamei a coluna 'bedrooms' e 'id' e de acordo com a 'bedrooms' (sort_values) foi organizado do maior para o menos (ascending=False)
 print(data[['bedrooms', 'id']].sort_values('bedrooms', ascending=False))
@@ -43,7 +37,6 @@ print(data[['bedrooms', 'id']].sort_values('bedrooms', ascending=False))
 # chamei o arquivo, selecionei o 'bedrooms' e com o 'sum()' somou o total de quartos
 print(data['bedrooms'].sum())
     # R: 72854
-
 
 # 7. Quantas casas possuem 2 banheiros?
 # chamar a coluna de 'bathrooms', especificar que são dois banheiros e a quantidade de linha que ela tem
@@ -73,7 +66,6 @@ data['m2_living'] = data['sqft_living']*0.092
 print(data[data['m2_living'] > 300] .shape)
     #R: 2141
 
-
 # 12. Quantas casas tem mais de 2 andares?
 # chamar as casas que tem mais de 2 andares e ver quantas elas são
 print(data[data['floors'] > 2].shape)
@@ -85,12 +77,10 @@ print(data[data['floors'] > 2].shape)
 print(data[data['waterfront'] == 1 ].shape)
     # R: 163
 
-
 # 14. Das casas com vista para o mar, quantas tem 3 quartos?
 # chamar a coluna 'waterfront', especificando que tem que ter uma vista para o mar e ver quantas tem mais de três 'badrooms'
 print(data[(data['waterfront'] == 1) & (data['bedrooms'] == 3) ].shape)
     # R: 64
-
 
 # 15. Das casas com mais de 300 metros quadrados de salar de estar quantos tem MAIS (>) de 2 banheiros?
 # fazer a conversão de pé para metros
@@ -99,19 +89,4 @@ print(data[(data['waterfront'] == 1) & (data['bedrooms'] == 3) ].shape)
 data['m2_living'] = data['sqft_living']*0.092
 print(data[(data['m2_living'] > 300) & (data['bathrooms'] > 2)] .shape)
     # R: 2088
-
-#mostre na tela as cinco primeiras linhas do conjunto de dados
-print(data.head())
-
-#mostre o numero de linhas e o numero de columas do conjunto de dados
-print(data.shape)
-
-# mostre na tela o nome das colunas do conjunto de dados
-print(data.columns)
-
-#mostre na tela o conjunto de dados ordenados pela columa price
-print(data[['id', 'price']].sort_values('price'))
-
-# mostre na tela o conjuntos de dados ordenados pela columa price do maior para o menor
-print(data[['id', 'price']].sort_values('price', ascending=False))
 
