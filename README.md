@@ -1,5 +1,8 @@
+![courseDataAnalysis](https://user-images.githubusercontent.com/74930052/125856282-e0c00f6f-9336-43ac-9db4-c44141f059fe.png)
+
+
 ---
-<img src="assets/bannerDoZeroAoDataScience"/>
+<img src="https://img.shields.io/static/v1?label=Status&message=Finish&color=32cd32&style=for-the-badge&logo=ghost"/>
 
 <p align="center">Esse curso aconteceu entre os dias 19/06/21 até 10/07/21. </p>
 
