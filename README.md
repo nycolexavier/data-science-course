@@ -3,7 +3,7 @@
 ---
 <img src="https://img.shields.io/static/v1?label=Status&message=incomplete&color=ff0000&style=for-the-badge&logo=ghost"/>
 
-<p align="center">Esse curso aconteceu entre os dias 19/06/21 até 10/07/21. </p>
+<p align="center">Esse curso esta disponível no canal do YouTube: <a href="https://youtube.com/playlist?list=PLZlkyCIi8bMprZgBsFopRQMG_Kj1IA1WG" > Aqui </a> </p>
 
 <p align="center">
  <a href="#objetivo">Objetivo</a> •
@@ -40,7 +40,7 @@ MIT License ©
 ---
 
 <a href="https://nycole-xavierr.medium.com/">
- <img style="border-radius: 6%;" src="assets/eu01.jpeg" width="100px;" alt=""/>
+ <img style="border-radius: 15%;" src="assets/eu01.jpeg" width="100px;" alt=""/>
  <br />
  <sub><b>Nycole Xavier</b></sub></a> <a href="https://nycole-xavierr.medium.com/" title="Medium">👩‍💻</a>
 
