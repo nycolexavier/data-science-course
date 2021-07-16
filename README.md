@@ -1,4 +1,4 @@
-![courseDataAnalysis](https://user-images.githubusercontent.com/74930052/125856282-e0c00f6f-9336-43ac-9db4-c44141f059fe.png)
+![bannerDoZeroAoDataScience](https://user-images.githubusercontent.com/74930052/125880985-bfd8e135-f6b6-4431-ba52-bd93037a7bb4.png)
 
 
 ---
