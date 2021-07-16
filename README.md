@@ -1,8 +1,7 @@
 ![bannerDoZeroAoDataScience](https://user-images.githubusercontent.com/74930052/125880985-bfd8e135-f6b6-4431-ba52-bd93037a7bb4.png)
 
-
 ---
-<img src="https://img.shields.io/static/v1?label=Status&message=Finish&color=32cd32&style=for-the-badge&logo=ghost"/>
+<img src="https://img.shields.io/static/v1?label=Status&message=incomplete&color=ff0000&style=for-the-badge&logo=ghost"/>
 
 <p align="center">Esse curso aconteceu entre os dias 19/06/21 até 10/07/21. </p>
 
@@ -21,8 +20,9 @@ Nesse repositório guardo todas as anotações, materiais e projetos que foram r
 
 - [x] Aula 01
 - [x] Aula 02
-- [x] Aula 03
-- [x] Aula 04 🎉
+- [] Aula 03
+- [] Aula 04 
+- [] Aula 05
 
 ### Tecnologias
 
