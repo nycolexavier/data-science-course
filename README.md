@@ -30,7 +30,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - [Python](https://www.python.org/downloads/)
 - [Anaconda](https://www.anaconda.com/products/individual)
-- [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb?utm_source=scs-index#recent=true)
+- [PyCharm](https://www.jetbrains.com/pycharm/download/#section=windows)
 
 ### Licença
 
